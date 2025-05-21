@@ -1,0 +1,20 @@
+@import '@/styles/variables';
+@import '@/styles/mixins';
+
+.main {
+  @include flex-center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: $spacing-xl;
+  text-align: center;
+
+  h1 {
+    @include heading-1;
+    margin-bottom: $spacing-md;
+  }
+
+  p {
+    @include body-text;
+    color: $secondary-color;
+  }
+} 
