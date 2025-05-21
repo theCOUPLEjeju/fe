@@ -1,6 +1,6 @@
 import styles from './page.module.scss';
 
-export default function Contact() {
+export default function Reserve() {
   return (
     <main className={styles.main}>
       <h1>Contact Us</h1>

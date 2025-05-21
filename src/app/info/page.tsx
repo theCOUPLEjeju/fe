@@ -1,6 +1,6 @@
 import styles from './page.module.scss';
 
-export default function Portfolio() {
+export default function Info() {
   return (
     <main className={styles.main}>
       <h1>Portfolio</h1>

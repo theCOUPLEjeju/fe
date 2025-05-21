@@ -1,6 +1,6 @@
 import styles from './page.module.scss';
 
-export default function About() {
+export default function Steak() {
   return (
     <main className={styles.main}>
       <h1>About Us</h1>

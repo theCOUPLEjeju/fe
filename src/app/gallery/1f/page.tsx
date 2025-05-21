@@ -1,6 +1,6 @@
 import styles from './page.module.scss';
 
-export default function Services() {
+export default function FirstFloor() {
   return (
     <main className={styles.main}>
       <h1>Our Services</h1>
